@@ -1,0 +1,24 @@
+#members {
+  margin: 0rem 0rem;
+}
+
+
+.break:before {
+    content: "\A";
+		white-space: pre; /* ←あわせてこれを指定しないと改行しない場合があるらしい */
+
+}
+
+/* if the screen is wider than 500px set the font size to 80px */
+
+.font_size {
+    font-size: 1.3rem;
+}
+
+
+
+
+.image-max-width {
+  max-width: 100%;
+  height: auto;
+}

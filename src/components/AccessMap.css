@@ -1,0 +1,28 @@
+#accessmap {
+    margin: 4rem 0rem;
+    padding: 12px;
+}
+
+.postDate {
+    text-align: left;
+    padding: 0rem 1rem;
+}
+
+.postTitle {
+    text-align: center;
+    padding: 3rem 1rem 0rem;
+}
+
+.title {
+    color: #000000;
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    line-height: 2.6;
+    font-family: 'Kosugi Maru', sans-serif;
+}
+
+.moreposts_btn {
+    text-align: center;
+    padding: 13px 32px;
+}
+

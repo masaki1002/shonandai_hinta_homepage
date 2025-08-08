@@ -1,0 +1,27 @@
+#intro {
+    margin: 0rem 0rem;
+}
+
+.introTitle{
+    margin: 2rem;
+    text-align: center;
+}
+.break:before {
+    content: "\A";
+	white-space: pre; /* ←あわせてこれを指定しないと改行しない場合があるらしい */
+
+  }
+
+.grid {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0px;
+    margin-top: 30px;
+}
+
+.intro-image {
+    text-align: center;
+}
+
+

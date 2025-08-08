@@ -1,0 +1,29 @@
+#approach {
+    margin: 0rem 0rem;
+}
+
+.approachTitle{
+    margin: 2rem 0rem;
+    text-align: center;
+}
+
+.approach_subtitle {
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.approacch_description {
+  
+    padding: 10px 0px;
+}
+
+
+.googlemap {
+text-align: center;
+position: relative;
+margin: auto;
+padding-bottom: 56.25%;
+padding-top:80px;
+height: 0;
+overflow: hidden;
+}

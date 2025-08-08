@@ -1,0 +1,44 @@
+#menu {
+    margin: 0rem 0rem;
+    padding: 0px;
+}
+
+.menuTitle{
+    margin: 2rem;
+    text-align: center;
+}
+
+.text_diagonal {
+  display: inline-block;
+  position: relative;
+  background-color: white;
+}
+
+.text_diagonal::before{
+    content: "疲労回復にお勧め";
+    position: absolute;
+    top: 0px;
+    background: darkorange;
+    border-radius: 0px;
+    right: 8px;
+    padding: 2px 20px ;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+  .menu_font_size {
+    font-size: 25px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .menu_font_size {
+    font-size: 20px;
+  }
+}
+
