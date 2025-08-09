@@ -2,7 +2,7 @@
   "name": "hinata_homepage",
   "version": "0.1.0",
   "private": true,
-  "homepage": "./",
+  "homepage": "https://masaki1002.github.io/hinata_homepage_prototype/",
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.7.2",
     "@fortawesome/free-regular-svg-icons": "^6.7.2",
@@ -14,6 +14,7 @@
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.7",
     "firebase": "^11.9.1",
+    "gh-pages": "^6.3.0",
     "react": "^19.1.0",
     "react-bootstrap": "^2.10.10",
     "react-dom": "^19.1.0",
@@ -27,6 +28,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "deploy": "rm -rf docs && npm run build && mv build docs",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

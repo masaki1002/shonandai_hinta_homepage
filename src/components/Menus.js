@@ -108,7 +108,7 @@ const Menus = () => {
             <br></br>
             <ul class="w3-ul">
               <li>
-                ６，０００円            
+                ６，０００円          
               </li>
               <li><br></br></li>
               <li><br></br></li>

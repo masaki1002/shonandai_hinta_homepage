@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/hinata_homepage_prototype/static/css/main.4499a2f2.css",
+    "main.js": "/hinata_homepage_prototype/static/js/main.d2f0dc89.js",
+    "static/media/outside_02.jpg": "/hinata_homepage_prototype/static/media/outside_02.d71920a4940868808e28.jpg",
+    "index.html": "/hinata_homepage_prototype/index.html",
+    "main.4499a2f2.css.map": "/hinata_homepage_prototype/static/css/main.4499a2f2.css.map",
+    "main.d2f0dc89.js.map": "/hinata_homepage_prototype/static/js/main.d2f0dc89.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4499a2f2.css",
+    "static/js/main.d2f0dc89.js"
+  ]
+}
