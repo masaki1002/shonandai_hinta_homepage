@@ -2,7 +2,7 @@
   "name": "hinata_homepage",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://masaki1002.github.io/hinata_homepage_prototype/",
+  "homepage": "https://masaki1002.github.io/shonandai_hinta_homepage/",
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.7.2",
     "@fortawesome/free-regular-svg-icons": "^6.7.2",
@@ -25,10 +25,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "deploy": "rm -rf docs && npm run build && mv build docs",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "deploy": "rm -rf docs && npm run build && mv build docs",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
