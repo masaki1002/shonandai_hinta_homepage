@@ -5,7 +5,7 @@ import MorePosts from './MorePosts';
 import Badge from 'react-bootstrap/Badge';
 import Button from 'react-bootstrap/Button';
 import "./Post.css";
-
+import placeholder_image from "../images/placeholder-image.jpg"
 
 function Post() {
 
@@ -29,7 +29,7 @@ function Post() {
           <p><a href="/moreposts" class="w3-button w3-teal w3-padding-large w3-large w3-margin-top  w3-hover-opacity-off"><i class="fa fa-th"> </i> 過去の便りを見る</a></p>
         </div>
         <div class="w3-col m6">
-          <img class="w3-image w3-round-large" src="/placeholder-image.jpg" alt="Buildings"></img>
+          <img class="w3-image w3-round-large" src={placeholder_image} alt="Buildings"></img>
         </div>
       </div>
     </div>

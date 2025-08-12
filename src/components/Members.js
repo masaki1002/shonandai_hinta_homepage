@@ -2,6 +2,7 @@ import React from 'react'
 
 import Image from 'react-bootstrap/Image'
 import "./Members.css"
+import placeholder_image from "../images/placeholder-image.jpg"
 
 const Members = () => {
 
@@ -31,7 +32,7 @@ const Members = () => {
           <div class="w3-left-align" style={intro_paragraph}>
           <div class="w3-row-padding">
             <div class="w3-col l4 m4 w3-margin-bottom">
-              <img class="w3-image w3-round-large image-max-width"  src="/placeholder-image.jpg" alt="Buildings"></img>
+              <img class="w3-image w3-round-large image-max-width"  src={placeholder_image} alt="Buildings"></img>
             </div>
               <div class="w3-col l8 m8 w3-margin-bottom">
                 <p class="w3-large">
@@ -57,7 +58,7 @@ const Members = () => {
 
             <div class="w3-row-padding">
             <div class="w3-col l4 m4 w3-margin-bottom">
-              <img class="w3-image w3-round-large image-max-width"  src="/placeholder-image.jpg" alt="Buildings"></img>
+              <img class="w3-image w3-round-large image-max-width"  src={placeholder_image} alt="Buildings"></img>
             </div>
               <div class="w3-col l8 m8 w3-margin-bottom">
                 <p class="w3-large">
