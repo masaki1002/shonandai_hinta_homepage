@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/shonandai_hinta_homepage/static/css/main.c893053c.css",
+    "main.js": "/shonandai_hinta_homepage/static/js/main.b9d27715.js",
+    "static/media/outside_02.jpg": "/shonandai_hinta_homepage/static/media/outside_02.d71920a4940868808e28.jpg",
+    "index.html": "/shonandai_hinta_homepage/index.html",
+    "main.c893053c.css.map": "/shonandai_hinta_homepage/static/css/main.c893053c.css.map",
+    "main.b9d27715.js.map": "/shonandai_hinta_homepage/static/js/main.b9d27715.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c893053c.css",
+    "static/js/main.b9d27715.js"
+  ]
+}
